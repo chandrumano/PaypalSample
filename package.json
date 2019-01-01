@@ -1,0 +1,27 @@
+{
+  "name": "paypalsample",
+  "version": "1.0.0",
+  "description": "Paypal webhooks integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrumano/PaypalSample.git"
+  },
+  "author": "Chandru Manoharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrumano/PaypalSample/issues"
+  },
+  "homepage": "https://github.com/chandrumano/PaypalSample#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "paypal-rest-sdk": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
