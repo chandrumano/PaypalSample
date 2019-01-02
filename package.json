@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/chandrumano/PaypalSample#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "paypal-rest-sdk": "^1.8.1"
+    "paypal-rest-sdk": "^1.8.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
